@@ -3,15 +3,7 @@ import { useAuth } from '../context/AuthContext'
 import { supabase } from '../lib/supabase'
 import { PLATFORM_META, ALL_PLATFORMS, type Platform, type Post, type SocialAccount } from '../types'
 import PlatformIcon from '../components/PlatformIcon'
-import {
-  TrendingUp,
-  Users,
-  Eye,
-  Heart,
-  FileText,
-  ArrowUpRight,
-  BarChart3,
-} from 'lucide-react'
+import { TrendingUp, Users, Eye, Heart, FileText, ArrowUpRight, ChartBar as BarChart3 } from 'lucide-react'
 import { format, subDays, parseISO } from 'date-fns'
 
 export default function Analytics() {

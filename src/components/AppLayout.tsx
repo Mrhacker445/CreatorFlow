@@ -1,14 +1,6 @@
 import { NavLink, useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
-import {
-  LayoutDashboard,
-  Share2,
-  PenSquare,
-  Calendar,
-  BarChart3,
-  LogOut,
-  Sparkles,
-} from 'lucide-react'
+import { LayoutDashboard, Share2, SquarePen as PenSquare, Calendar, ChartBar as BarChart3, LogOut, Sparkles } from 'lucide-react'
 import type { ReactNode } from 'react'
 
 const navItems = [

@@ -3,7 +3,7 @@ import { useAuth } from '../context/AuthContext'
 import { supabase } from '../lib/supabase'
 import { ALL_PLATFORMS, PLATFORM_META, type Platform, type SocialAccount } from '../types'
 import PlatformIcon from '../components/PlatformIcon'
-import { Check, Plus, Trash2, X, AlertCircle } from 'lucide-react'
+import { Check, Plus, Trash2, X, CircleAlert as AlertCircle } from 'lucide-react'
 
 interface ConnectModalState {
   platform: Platform | null

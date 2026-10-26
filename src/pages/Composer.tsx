@@ -4,15 +4,7 @@ import { supabase } from '../lib/supabase'
 import { PLATFORM_META, type Platform, type Post, type SocialAccount, type PostStatus } from '../types'
 import PlatformIcon from '../components/PlatformIcon'
 import { useNavigate } from 'react-router-dom'
-import {
-  Send,
-  Calendar as CalendarIcon,
-  Save,
-  Check,
-  AlertCircle,
-  Image as ImageIcon,
-  Hash,
-} from 'lucide-react'
+import { Send, Calendar as CalendarIcon, Save, Check, CircleAlert as AlertCircle, Image as ImageIcon, Hash } from 'lucide-react'
 
 export default function Composer() {
   const { user } = useAuth()
